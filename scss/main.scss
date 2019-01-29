@@ -4,7 +4,8 @@
 @import
   'abstracts/variables',
   'abstracts/functions',
-  'abstracts/mixins';
+  'abstracts/mixins',
+  'abstracts/animations';
 
 // 2. Vendors
 @import
@@ -19,7 +20,18 @@
 
 // 4. Layout-related sections
 
+@import 'layout/navbar'; 
+@import 'layout/bestsellings'; 
+@import 'layout/day-offer';
+@import 'layout/gallery';
+@import 'layout/contact';
+@import 'layout/footer';
+
 // 5. Components
+ 
+@import 'components/button';
+@import 'components/modal';
+@import 'components/bestselling-card';
 
 // 6. Page-specific styles
 

@@ -1,0 +1,31 @@
+.contact {
+    grid-row: 8 / 9;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: $main-color;
+    grid-column-gap: 2.5rem; 
+    align-items: center;
+
+    &__heading {        
+        color: white;
+        justify-self: end;
+        font-size: 1.6rem;
+    }
+
+    &__form {
+        display: flex;
+    }
+
+    &__email-input {
+        padding: 1rem; 
+        font-size: 1.4rem;
+        border-radius: 2rem 0 0 2rem;
+        border: none;
+    }
+
+    &__submit-btn {
+        padding: 0 .7rem 0 .7rem;
+        border-radius: 0 2rem 2rem 0; 
+    }
+}
