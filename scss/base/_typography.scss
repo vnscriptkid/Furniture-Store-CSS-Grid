@@ -21,4 +21,16 @@ a:visited {
     color: #12367e;
     text-align: center;
     margin-bottom: 3rem;
+
+    @media only screen and (max-width: $largest-bp) {
+        font-size: 3.5rem;
+    } 
+
+    @media only screen and (max-width: $second-bp) {
+        font-size: 3.0rem;
+    } 
+
+    @media only screen and (max-width: $third-bp) {
+        font-size: 2.5rem;
+    } 
 }
